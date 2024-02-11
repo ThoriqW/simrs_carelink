@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../../components/Sidebar";
-import settingIcon from "../../assets/icons/administration.svg"
+import Sidebar from "../../../components/Sidebar";
+import settingIcon from "../../../assets/icons/administration.svg"
 
 const Admin = () => {
     return (
@@ -18,6 +18,16 @@ const Admin = () => {
                     <div className="bg-white shadow-md rounded-md p-5">
                         <h1 className="font-bold">Dokter</h1>
                         <hr className="border-t-2 border-background my-2" />
+                    </div>
+                    <div className="flex flex-row gap-4 mt-10">
+                        <div className="flex-auto bg-white shadow-md rounded-md p-5">
+                            <h1 className="font-bold">Petugas</h1>
+                        <hr className="border-t-2 border-background my-2" />
+                        </div>
+                        <div className="flex-auto bg-white shadow-md rounded-md p-5">
+                            <h1 className="font-bold">Perawat</h1>
+                        <hr className="border-t-2 border-background my-2" />
+                        </div>
                     </div>
                 </div>
             </div>

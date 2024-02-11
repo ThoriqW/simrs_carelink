@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import Root from './routes/Root'
+import Routes from './routes'
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Root />
+        <Routes />
       </BrowserRouter>
     </>
   )
