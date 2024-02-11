@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "background": "#F6F1F1",
         "button": "#146C94"
       },
       backgroundImage: {
