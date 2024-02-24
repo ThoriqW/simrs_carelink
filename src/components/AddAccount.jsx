@@ -91,7 +91,7 @@ const AddAccount = ({ toggleButton }) => {
                 />
               </div>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 mt-10">
               <button className="py-2 px-6 bg-red-600 text-white rounded-md w-full" onClick={toggleButton}>
                 Batal
               </button>

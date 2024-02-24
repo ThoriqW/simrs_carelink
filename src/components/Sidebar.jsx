@@ -9,7 +9,7 @@ import accountIcon from "../assets/icons/account.svg"
 const Sidebar = () => {
 
     const [menuActive, setMenuActive] = useState();
-    const user = "Admin"
+    const user = "User"
 
     useEffect(() => {
         user === "Admin" ? setMenuActive(MenuAdmin) : setMenuActive(MenuUser);
@@ -18,7 +18,7 @@ const Sidebar = () => {
     return (
         <>
             <aside className="h-screen sticky top-0 min-w-72 shadow-xl bg-white">
-                <div className="flex justify-center py-10 mb-10">
+                <div className="flex justify-center py-10">
                     <img className="w-[100px]" src={logoCareLink} alt="logo-care-link" />
                 </div>
                 {menuActive}
