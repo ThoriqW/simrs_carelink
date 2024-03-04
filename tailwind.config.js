@@ -9,7 +9,7 @@ export default {
       colors: {
         "background": "#F6F1F1",
         "button": "#146C94",
-        "hover": "#AFD3E2"
+        "hover": "#AFD3E2",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/images/background/bg-login.png')" 

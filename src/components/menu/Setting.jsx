@@ -4,7 +4,7 @@ import linkIcon from "../../assets/icons/link.svg"
 import accountIcon from "../../assets/icons/account.svg"
 import databaseIcon from "../../assets/icons/database.svg"
 
-const MenuAdmin = () => {
+const Setting = () => {
 
     return (
         <>
@@ -27,4 +27,4 @@ const MenuAdmin = () => {
 }
 
 
-export default MenuAdmin;
+export default Setting;
